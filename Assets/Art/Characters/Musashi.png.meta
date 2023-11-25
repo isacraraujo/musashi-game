@@ -126,12 +126,12 @@ TextureImporter:
       name: Musashi_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 95.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 102
+        width: 17
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: Musashi_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 95.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 65
+        y: 102
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: Musashi_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 95.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 113
+        y: 102
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: Musashi_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 95.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 161
+        y: 102
+        width: 15
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: Musashi_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 95.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 102
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: Musashi_5
       rect:
         serializedVersion: 2
-        x: 240
-        y: 95.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 257
+        y: 102
+        width: 16
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,12 +252,12 @@ TextureImporter:
       name: Musashi_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 68
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: Musashi_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 65
+        y: 68
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,12 +294,12 @@ TextureImporter:
       name: Musashi_8
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 113
+        y: 68
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: Musashi_9
       rect:
         serializedVersion: 2
-        x: 144
-        y: 64.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 161
+        y: 68
+        width: 15
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: Musashi_10
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 208
+        y: 68
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: Musashi_11
       rect:
         serializedVersion: 2
-        x: 240
-        y: 64.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 257
+        y: 68
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,12 +378,12 @@ TextureImporter:
       name: Musashi_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 33.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 18
+        y: 37
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,12 +399,12 @@ TextureImporter:
       name: Musashi_13
       rect:
         serializedVersion: 2
-        x: 48
-        y: 33.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 56
+        y: 35
+        width: 34
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: Musashi_14
       rect:
         serializedVersion: 2
-        x: 96
-        y: 33.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 107
+        y: 37
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,12 +441,12 @@ TextureImporter:
       name: Musashi_15
       rect:
         serializedVersion: 2
-        x: 144
-        y: 33.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 161
+        y: 37
+        width: 15
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: Musashi_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 19
+        y: 6
+        width: 15
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -483,12 +483,12 @@ TextureImporter:
       name: Musashi_17
       rect:
         serializedVersion: 2
-        x: 48
-        y: 2.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 67
+        y: 6
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,12 +504,12 @@ TextureImporter:
       name: Musashi_18
       rect:
         serializedVersion: 2
-        x: 96
-        y: 2.25
-        width: 48
-        height: 31.75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 114
+        y: 5
+        width: 20
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.15}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -7,6 +7,8 @@ public class SwordAttack : MonoBehaviour
     public Collider2D swordCollider;
     public float damage = 3;
     Vector2 rightAttackOffset;
+    public float knockbackForce = 15f;
+    public float swordDamage = 1f;
 
     private void Start() {
         rightAttackOffset = transform.position;
@@ -26,14 +28,17 @@ public class SwordAttack : MonoBehaviour
         swordCollider.enabled = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.tag == "Enemy") {
-            // Deal damage to the enemy
-            Enemy enemy = other.GetComponent<Enemy>();
+    private void OnTriggerEnter2D(Collider2D collider) {
+        IDamageble damagebleObject = collider.GetComponent<IDamageble>();
 
-            if(enemy != null) {
-                enemy.Health -= damage;
-            }
+        if(damagebleObject != null) {
+            Vector3 parentPosition = transform.parent.position;  
+
+            Vector2 direction = (Vector2) (collider.gameObject.transform.position - parentPosition).normalized;
+            
+            Vector2 knockback = direction * knockbackForce;
+
+            damagebleObject.OnHit(swordDamage, knockback);
         }
     }
 }

@@ -65,7 +65,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0120739825, y: -0.01399914}
+  m_Offset: {x: 0.05835779, y: 0.03685753}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,7 +76,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.12400123, y: 0.11976977}
+  m_Size: {x: 0.23827723, y: 0.17684793}
   m_EdgeRadius: 0
 --- !u!114 &1205776424225263685
 MonoBehaviour:
@@ -92,6 +92,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordCollider: {fileID: 5711904961085595330}
   damage: 1
+  knockbackForce: 600
+  swordDamage: 1
 --- !u!1 &8771106841568583514
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,8 +107,9 @@ GameObject:
   - component: {fileID: 8836657741599602614}
   - component: {fileID: 3174368730074680420}
   - component: {fileID: 2695354730953138011}
-  - component: {fileID: 2727967991494003279}
   - component: {fileID: 2930806475109225554}
+  - component: {fileID: 2078551725170740399}
+  - component: {fileID: 8938530399411806737}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -240,6 +243,7 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  idleFriction: 0.9
   swordAttack: {fileID: 1205776424225263685}
 --- !u!50 &2695354730953138011
 Rigidbody2D:
@@ -249,14 +253,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8771106841568583514}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -267,9 +271,30 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &2727967991494003279
-BoxCollider2D:
+  m_Constraints: 4
+--- !u!95 &2930806475109225554
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771106841568583514}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 82b83c9a9c4da014796d2853f78863a5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!58 &2078551725170740399
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -300,37 +325,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00066663325, y: -0.06287973}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.48, y: 0.3175}
-    newSize: {x: 0.48, y: 0.48}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: -0.00047480315, y: 0.0223943}
   serializedVersion: 2
-  m_Size: {x: 0.081348896, y: 0.016562164}
-  m_EdgeRadius: 0
---- !u!95 &2930806475109225554
-Animator:
-  serializedVersion: 5
+  m_Radius: 0.04415386
+--- !u!114 &8938530399411806737
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8771106841568583514}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 82b83c9a9c4da014796d2853f78863a5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b88a495d2b777e346a44ea3dcd3f18bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 7
+  damage: 50
+  _targetable: 1

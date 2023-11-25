@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+    public float idleFriction = 0.9f;
     public SwordAttack swordAttack;
 
     Vector2 movementInput;
@@ -44,6 +45,7 @@ public class PlayerController : MonoBehaviour
                 
                 animator.SetBool("isMoving", success);
             } else {
+                rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, idleFriction);
                 animator.SetBool("isMoving", false);
             }
 
